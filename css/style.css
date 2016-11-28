@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+}
+.all-secs {
+	margin: 0;
+	padding: 40px;
+}
+#sec1 {
+	background: #696969;
+    color: #fff;
+		font-size: 20px;
+}
+#sec2 {
+	background: #D3D3D3;
+		color: #fff;
+		font-size: 20px;
+}

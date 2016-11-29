@@ -9,7 +9,7 @@ Week 3 -
 Now you should be able to add some more levels and also write an explanation of the game and how far it goes (so anyone who tries it will not be disappointed if it ends quickly for them). Also, refine and improve the CSS and jQuery.
 
 Week 1:
-This week I focused on creating the story for my game and making the text for the came show and hide. I had a problem figuring out how to connect my slidetoggle to a button but figured it out using JS fiddle examples. I still have a lot to do but I feel like I made progress this week and have a better understanding of where to go from here. 
+This week I focused on creating the story for my game and making the text for the came show and hide. I had a problem figuring out how to connect my slidetoggle to a button but figured it out using JS fiddle examples. I still have a lot to do but I feel like I made progress this week and have a better understanding of where to go from here.
 
 Storyboard:
 INTRO:
@@ -21,6 +21,7 @@ INTRO:
 2. I conjure up a motorcycle and ride to school.
 3. Fly to school, who needs the bus?
 4. I don’t have powers yet so I walk to school.
+
 Option 1: The bus driver gives you an unappreciative look but lets you on the bus.
 Option 2: You are now officially the coolest kid at super school
 Option 3: You make it to school with time to spare. Everyone is staring at you as you make your super hero landing.

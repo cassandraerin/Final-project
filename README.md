@@ -3,10 +3,20 @@ I strongly suggest that you work on basic HTML plus JavaScript in week 1. You ca
 -Meanwhile, write the beginning of all branches of the story (not in JS but in your text editor, as a file).
 
 Week 2 -
-Now is the time to work on CSS and responsive design so that you can be sure you have a beautiful result to show. Get everything working for at least three tiers or levels or steps int the game.
+Now is the time to work on CSS and responsive design so that you can be sure you have a beautiful result to show. Get everything working for at least three tiers or levels or steps into the game.
 
 Week 3 -
 Now you should be able to add some more levels and also write an explanation of the game and how far it goes (so anyone who tries it will not be disappointed if it ends quickly for them). Also, refine and improve the CSS and jQuery.
+
+
+
+
+Week 2:
+This week I focused on getting everything working. I set up the game so that it would work all the way to the end. I got 2 storylines fully functioning, telekenisis and conjure. The rest will be done by the end of the week. I had a hard time figuring out how to assign each story an ending, which I solved by assigning buttons id's that correspond with the ending for the last question in the storyline. By next week I will be able to focus on CSS and making the game beautiful.
+
+
+
+
 
 Week 1:
 This week I focused on creating the story for my game and making the text for the came show and hide. I had a problem figuring out how to connect my slidetoggle to a button but figured it out using JS fiddle examples. I still have a lot to do but I feel like I made progress this week and have a better understanding of where to go from here.

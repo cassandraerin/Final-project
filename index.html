@@ -7,7 +7,8 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<section id='sec1' class='all-secs'>
+
+<section id='sec1' class='all-secs'>
 	<header>
 <h1>Your First Day</h1>
 <p>Can You Survive a Day in Super School?</p>
@@ -15,9 +16,9 @@
 
 <p>This choose your own adventure game lets you live a day in the life of a super student. Your decisions throguhout your first day at Super School will help you discover your powers, or lack thereof, make firends and determine your future place in the world of super heros. It all depends on your first day and the choices that you make to determine your place as either a hero, sidekick, super villain, Super School dropout or rogue. Let classes begin! </p>
 
-<button id="button" type="submit">Begin Your Day</button>
+<button id="button">Begin Your Day</button>
 
-<img src="images/superhero.jpg" alt="superheros">
+<!-- <img src="images/superhero.jpg" alt="superheros"> -->
 
 
 </section>
@@ -27,21 +28,201 @@
 	<label>Choose a gender for your character</label>
 
 	<div class="radio">
-	  <label><input type="radio" name="gender" id="Male" value="Male">Male</label>
+	  <label><input type="radio" name="choice" class="choices" id="Male" value="sec3a">Male</label>
 	</div>
 
 	<div class="radio">
-		<label><input type="radio" name="gender" id="Female" value="Female">Female</label>
+		<label><input type="radio" name="choice" class="choices" id="Female" value="sec3b">Female</label>
 	</div>
 </div>
 
- <button type="submit">Continue</button>
+ <button>Continue</button>
 </section>
 
 <section id='sec3' class='all-secs'>
-	<p>Hi</p>
-	 <button type="submit">Continue</button>
+	<p>It’s your first day of school and you can hardly wait. Your bus passes by before you make it to the bus stop. What do you do?</p>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="telekenisis" value="sec4a">Pull the bus back with telekinesis.</label>
+	</div>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="conjure" value="sec4b">I conjure up a motorcycle and ride to school.</label>
+	</div>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="fly" value="sec4c">Fly to school, who needs the bus?</label>
+	</div>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="none" value="sec4d">I don’t have powers yet so I walk to school. </label>
+	</div>
+	 <button>Continue</button>
 </section>
+
+<section id='sec4' class='all-secs'>
+<p>The bus driver gives you an unappreciative look but lets you on the bus. </p>
+<p>You made it to your first class, “Knowing Your Powers 101” and another student who looks a little shady asks about your powers. What do you tell him?</p>
+
+<div class="radio">
+	<label><input type="radio" name="choice" class="choices" id="true" value="sec5a">The truth, nothing to fear when you can move things with your mind.</label>
+</div>
+<div class="radio">
+	<label><input type="radio" name="choice" class="choices" id="lie" value="sec5b">Lie and say you don’t have powers yet. Better safe than sorry.</label>
+</div>
+	<button id='button'>Continue</button>
+</section>
+
+<section id='sec5' class='all-secs'>
+	<p>Your peer immediately praises your awesome powers and invites you to come with his group of friends to a party that night where everyone will be using their powers, something that is highly forbidden outside of school. </p>
+	<p>On the way to the party that night, everyone is using their powers to steal from unsuspecting people as they walk around town. What do you do?</p>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="go" value="sec6a">I go along for the ride but don’t steal anything.</label>
+	</div>
+		<div class="radio">
+			<label><input type="radio" name="choice" class="choices" id="stop" value="sec6b">I tell them to stop; I am training to be a hero after all.</label>
+		</div>
+		<div class="radio">
+			<label><input type="radio" name="choice" class="choices" id="take" value="sec6c">I take things along with everyone else. I have the powers; why not use them.</label>
+		</div>
+<button id='button'>Results</button>
+</section>
+
+<section id='sec6' class='all-secs'>
+	<p>Your classmate waves you off and says that he has no use for a powerless wannabe. Your immediately relieved that you didn’t tell him about your powers.</p>
+	<p>Later on in a class called “Loving Levitation”, another student talks to you and confirms that the bully who talked to you earlier was no good. You are invited to join a school club for students with similar powers to yours. Do you go?</p>
+
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="yeah" value="sec7a">I take things along with everyone else. I have the powers; why not use them.</label>
+	</div>
+		<div class="radio">
+			<label><input type="radio" name="choice" class="choices" id="maybe" value="sec7b">I take things along with everyone else. I have the powers; why not use them.</label>
+			<div class="radio">
+				<label><input type="radio" name="choice" class="choices" id="no" value="sec7c">I take things along with everyone else. I have the powers; why not use them.</label>
+			</div>
+		<button>Results</button>
+</section>
+
+<section id='sec7' class='all-secs'>
+	<p>You are now officially the coolest kid at super school.</p>
+	<p>You are about to walk into class but you see a group of students sneaking out of the back of the school. Do you follow?</p>
+
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="ofcourse" value="sec8a">Of course, I need to tell them that they’re going to be late to class.</label>
+	</div>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="nah" value="sec8b">No, I mind my own business and go to class.</label>
+	</div>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="heck" value="sec8c">Heck yeah! Nothing cooler than skipping school on the first day.</label>
+	</div>
+	 	<button>Continue</button>
+</section>
+
+<section id='sec8' class='all-secs'>
+	<p>You find out that these students are using their powers for evil, and they surround you to prevent you from telling anyone.</p>
+
+	<p>Will you fight them to stop them?</p>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="yes" value="sec9a">Yes, I’ll conjure up a cage to put them in and laugh while I go get a teacher to take care of them.</label>
+	</div>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="nope" value="sec9b">No, I might get in trouble for using my powers on another student so I’ll use my natural charm to get out of the situation. </label>
+	</div>
+		<button>Continue</button>
+</section>
+
+<section id='sec9' class='all-secs'>
+	<p>The other students are amazed by your powers but the school reprimands you for using your powers rather than calling a teacher for help. </p>
+	<button value='clickRogue'>Continue</button>
+</section>
+
+<section id='sec10' class='all-secs'>
+	<p>The other students are amazed by your powers but the school reprimands you for using your powers rather than calling a teacher for help.  </p>
+	<button value='clickRogue'>Continue</button>
+</section>
+
+<section id='sec11' class='all-secs'>
+	<p>	Your suave charm was enough to convince the students to go back to class. Good Job!  </p>
+		<button value='clickHero'>Continue</button>
+</section>
+
+<section id='sec12' class='all-secs'>
+	<p>Its all fun and games until your classmates start robbing people and blowing up people’s tires with their mind. One of the group ask you to conjure up the money from inside a bank</p>
+	<p>What do you do?</p>
+
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="money" value="sec13a">Conjure up the money for your friends. The bank doesn’t need all that money.</label>
+	</div>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="help" value="sec13b">Say no but continue to help your friends wreak havoc. </label>
+	</div>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="everything" value="sec13c">Say no and do everything you can to stop the madness. You didn’t sign up for this.</label>
+	</div>
+	<button>Continue</button>
+</section>
+
+
+<section id='sec13' class='all-secs'>
+	<p>During class, an emergency broadcast is released saying that a group of Super School students a reeking havoc across the city.</p>
+	<p>What do you do?</p>
+	<div class="radio">
+		<label><input type="radio" name="choice" class="choices" id="report" value="sec14a">Report the students that you saw leaving school to the headmaster. They’ll know what to do.</label>
+		<div class="radio">
+			<label><input type="radio" name="choice" class="choices" id="after" value="sec14b">Go after them! You feel responsible for not stopping them from leaving school.</label>
+		</div>
+	</div>
+<button>Continue</button>
+</section>
+
+<section id='sec14' class='all-secs'>
+	<p>Too little, too late. The students have already done damage to the city. </p>
+	<button value='clickRogue'>Continue</button>
+</section>
+
+<section id='sec15' class='all-secs'>
+	<p>Some damage has already been done, but you are able to stop the leader of the group before unrepeatable harm could be done. </p>
+	<button value='clickSidekick'>Continue</button>
+</section>
+
+<section id='sec16' class='all-secs'>
+	<p>You get caught red handed by the police and school officials. You are expelled on your first day of school. </p>
+	<button value='clickVillain'>Continue</button>
+</section>
+
+<section id='sec17' class='all-secs'>
+	<p>You do whatever you feel like doing, regardless of the consequences. In this case you were left behind when the dust settled to take the heat. </p>
+		<button value='clickDropout'>Continue</button>
+</section>
+
+<section id='sec18' class='all-secs'>
+	<p>When the chaos comes to an end you did a lot of good and caught a lot of the bad guys. Without you, the city would be a lot worse off. </p>
+	<button value='clickRogue'>Continue</button>
+</section>
+
+
+<section id='hero' class='all-secs'>
+	<h1>Hero</h1>
+<p>Your hard work and honest demeanor during you time in super school has landed you in the noblest of professions. You are now a hero entrusted with the safety and well being of the people in your district. No matter the situation, you will be there to help and fight for the people who need you. </p>
+</section>
+
+<section id='villain' class='all-secs'>
+	<h1>Villain</h1>
+<p>You took a hard turn to the left while you were in school and somehow wound up using your powers for your own benefit. All of the instruction and support in the world couldn’t change the fact that your powers are under your control. It was just too easy to get whatever you wanted without breaking a sweat. </p>
+</section>
+
+<section id='rogue' class='all-secs'>
+	<h1>Rogue</h1>
+	<p>You made it through Super School but you don’t always follow the rules. You learned to control your powers and hone your abilities, as much as you learned to resist authority figures and do what you thought needed to be done. You are able to do great good and bad, depending on the day. </p>
+</section>
+
+<section id='dropout' class='all-secs'>
+	<h1>Dropout</h1>
+	<p>School was never your thing. No matter how much potential and power you had, you never felt like school was the place for you to learn to control and use your powers to the best of your potential. Don’t worry; there are plenty of other outlets for people with your kinds of gifts.</p>
+</section>
+
+<section id='sidekick' class='all-secs'>
+	<h1>Sidekick</h1>
+	<p>You did well in Super School. Turned in your assignments on time and passed all of your classes. You didn’t quite have what it takes to be a hero but you definitely proved that you a good to the core and can contribute to the city and help heroes keep the public safe. </p>
+</section>
+
 
 <script src="js/jquery.min.js"></script>
 <script src='js/script.js'></script>

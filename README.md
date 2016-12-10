@@ -8,12 +8,16 @@ Now is the time to work on CSS and responsive design so that you can be sure you
 Week 3 -
 Now you should be able to add some more levels and also write an explanation of the game and how far it goes (so anyone who tries it will not be disappointed if it ends quickly for them). Also, refine and improve the CSS and jQuery.
 
+////////////////
+Week 3:
+This week I focused on CSS and finalizing my JQuery. My CSS now includes gradient slides as well as ombre styled slides coordinated by storyline. I also worked on assigning images as backgrounds, which proved a little more difficult than it seems. I still need to work on positioning my images the way that I wan't them and making my text stand out more. If time allows, I may attempt to animate my images at the end of the game. All in all, I'm pretty happy with my game.
+//////////////////
 
 
-
+///////////////
 Week 2:
-This week I focused on getting everything working. I set up the game so that it would work all the way to the end. I got 2 storylines fully functioning, telekenisis and conjure. The rest will be done by the end of the week. I had a hard time figuring out how to assign each story an ending, which I solved by assigning buttons id's that correspond with the ending for the last question in the storyline. By next week I will be able to focus on CSS and making the game beautiful.
-
+This week I focused on getting everything working. I set up the game so that it would work all the way to the end. I got 2 storylines fully functioning, telekinesis and conjure. The rest will be done by the end of the week. I had a hard time figuring out how to assign each story an ending, which I solved by assigning buttons id's that correspond with the ending for the last question in the storyline. By next week I will be able to focus on CSS and making the game beautiful.
+///////////////
 
 
 

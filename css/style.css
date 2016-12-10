@@ -1,32 +1,155 @@
 body {
 	margin: 0;
+	font-family: Comic, Calibri, sans-serif;
 }
+
 .all-secs {
 	margin: 0;
-	padding: 40px;
+	padding: 50px;
+
 }
 #sec1 {
-	background: #696969;
     color: #fff;
 		font-size: 20px;
+		position: relative;
+		background: url('../images/galaxy.jpg');
+		background-repeat:no-repeat;
+		background-position:center;
 }
 #sec2 {
-	background: #D3D3D3;
+	background: #737373;
 		color: #fff;
 		font-size: 20px;
 }
-img {
-	opacity: 0.7;
-	margin-left: 30%;
-	margin-right: 30%;
-	margin-top: 5px;
-	padding: 10px;
-	animation: slide 4s infinite;
+#sec3 {
+	background: #d9d9d9;
 }
+#sec4 {
+background:#a8ddb5;
+}
+#sec5 {
+	background: #7bccc4;
+}
+#sec6 {
+	background: #4eb3d3;
+}
+
+
+#sec19 {
+	background: #6C9AA1;
+}
+#sec20 {
+	background: #387078;
+}
+#sec21 {
+	background: #1C5259;
+}
+#sec22 {
+	background: #08624E;
+}
+
+#sec7 {
+	background: #FFAA91;
+}
+#sec8 {
+	background: #D17A61;
+}
+#sec9 {
+	background: #B6411F;
+}
+#sec11 {
+	background: #9A462E;
+}
+#sec13 {
+	background: #761F06;
+}
+#sec12 {
+	background: #EC4300;
+}
+#sec14 {
+	background: #F24500;
+}
+#sec15 {
+	background: #FFA784;
+}
+#sec16 {
+	background: #A52F00;
+}
+#sec17 {
+	background: #A50000;
+}
+#sec18 {
+	background: #F20000;
+}
+
+#sec23 {
+	background: #F098C3;
+}
+#sec24 {
+	background: #E486B4;
+}
+#sec25 {
+	background: #D36FA0;
+}
+#sec26 {
+	background: #963866;
+}
+#sec28 {
+	background: #912057;
+}
+#sec29 {
+	background: #A6115A;
+}
+#sec30 {
+	background: #C80062;
+}
+#sec31 {
+	background: #E50070;
+}
+#sec32 {
+	background: #EE338F;
+}
+
+#hero {
+	background: linear-gradient(blue, white);
+	font-size: 20px;
+}
+#villain {
+	background: linear-gradient(red,black);
+	font-size: 20px;
+}
+#sidekick {
+	background: linear-gradient(red, lightblue);
+	font-size: 20px;
+}
+#rogue {
+	background: linear-gradient(grey, black);
+	color: #fff;
+	font-size: 20px;
+}
+#dropout {
+	background: linear-gradient(white, black);
+	font-size: 20px;
+}
+
+#punch {
+	display: block;
+	margin: auto;
+	width: 50%;
+ }
+
 #button{
   display: block;
+	font-size: 20px;
 }
-@media (max-width: 600px) {
+a {
+	position: absolute;
+	bottom: 120px;
+	right: 15px;
+	color:#fff;
+	font-size: 18px;
+}
+@media (max-width: 800px) {
 img {
 max-width: 100%;
 margin: 0;

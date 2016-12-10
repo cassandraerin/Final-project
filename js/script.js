@@ -54,9 +54,6 @@ $( "input" ).click(function() {
 				case 'nope':
 					$('#sec11').slideDown();
 					break;
-					case 'sec9':
-						$('#rogue').slideDown();
-						break;
 						case 'nah':
 							$('#sec13').slideDown();
 							break;
@@ -73,7 +70,7 @@ $( "input" ).click(function() {
 											$('#sec16').slideDown();
 											break;
 											case 'help':
-												$('#sec17').slideDown();
+											  $('#sec17').slideDown();
 												break;
 												case 'everything':
 													$('#sec18').slideDown();
@@ -81,30 +78,73 @@ $( "input" ).click(function() {
 	case 'telekenisis':
 		$('#sec4').slideDown();
 		break;
-			case 'true':
-			  $('#sec5').slideDown();
+		case 'true':
+			$('#sec5').slideDown();
+			break;
+			case 'lie':
+				$('#sec6').slideDown();
 				break;
-					case 'lie':
-						$('#sec6').slideDown();
+				case 'go':
+	  			$('#dropout').slideDown();
+					break;
+					case 'stop':
+		  			$('#hero').slideDown();
 						break;
-							case 'go':
-								$('#dropout').slideDown();
+						case 'take':
+							$('#villain').slideDown();
+							break;
+							case 'yeah':
+			  				$('#hero').slideDown();
 								break;
-									case 'stop':
-										$('#hero').slideDown();
+								case 'maybe':
+									$('#rogue').slideDown();
+									break;
+									case 'no':
+					  				$('#sidekick').slideDown();
 										break;
-											case 'take':
-												$('#villain').slideDown();
-												break;
-													case 'yeah':
-			  										$('#hero').slideDown();
-														break;
-															case 'Maybe':
-																$('#rogue').slideDown();
-																break;
-																	case 'no':
-					  												$('#sidekick').slideDown();
-																		break;
+case 'fly':
+  $('#sec19').slideDown();
+	break;
+	case 'accept':
+	  $('#sec20').slideDown();
+		break;
+		case 'decline':
+			$('#sec21').slideDown();
+			break;
+			case 'include':
+				$('#sec22').slideDown();
+				break;
+
+case 'none':
+	$('#sec23').slideDown();
+	break;
+	case 'smart':
+		$('#sec24').slideDown();
+		break;
+		case 'tech':
+			$('#sec25').slideDown();
+			break;
+			case 'clean':
+				$('#sec26').slideDown();
+				break;
+				case 'try':
+					$('#sec27').slideDown();
+					break;
+					case 'charm':
+						$('#sec28').slideDown();
+						break;
+						case 'head':
+							$('#sec29').slideDown();
+							break;
+							case 'sit':
+								$('#sec30').slideDown();
+								break;
+								case 'explain':
+									$('#sec31').slideDown();
+									break;
+									case 'tell':
+										$('#sec32').slideDown();
+										break;
 
 	/*default:
 		alert('Nobody Wins!');*/

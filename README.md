@@ -8,11 +8,16 @@ Now is the time to work on CSS and responsive design so that you can be sure you
 Week 3 -
 Now you should be able to add some more levels and also write an explanation of the game and how far it goes (so anyone who tries it will not be disappointed if it ends quickly for them). Also, refine and improve the CSS and jQuery.
 
+
+////////////////
+Final:
+I finalized some of the last minute parts of my project like making sure that everything is responsive and fixing one of my images. I also figured out how to make the reset button bring the player back to the beginning of the game so that they can easily play multiple storylines.
+/////////////////
+
 ////////////////
 Week 3:
 This week I focused on CSS and finalizing my JQuery. My CSS now includes gradient slides as well as ombre styled slides coordinated by storyline. I also worked on assigning images as backgrounds, which proved a little more difficult than it seems. I still need to work on positioning my images the way that I wan't them and making my text stand out more. If time allows, I may attempt to animate my images at the end of the game. All in all, I'm pretty happy with my game.
 //////////////////
-
 
 ///////////////
 Week 2:

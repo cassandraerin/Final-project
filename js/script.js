@@ -31,11 +31,11 @@ $('.all-secs').on('click', 'button', function() {
 				$(this).parent().next().slideDown();
 		}
 
-		/*if ( $(this).attr("id") != "sec3" ) {
+		if ( $(this).attr("id") != "configreset" ) {
 	 $(this).next().slideDown();
  } else {
 		 $('#sec1').slideDown();
- }*/
+ }
 });
 
 $( "input" ).click(function() {
@@ -96,7 +96,7 @@ $( "input" ).click(function() {
 							case 'yeah':
 			  				$('#hero').slideDown();
 								break;
-								case 'maybe':
+								case 'Maybe':
 									$('#rogue').slideDown();
 									break;
 									case 'no':

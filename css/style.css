@@ -13,8 +13,8 @@ body {
 		font-size: 20px;
 		position: relative;
 		background: url('../images/galaxy.jpg');
-		background-repeat:no-repeat;
-		background-position:center;
+		background-repeat: no-repeat;
+		background-position: center;
 }
 #sec2 {
 	background: #737373;
@@ -153,4 +153,5 @@ a {
 img {
 max-width: 100%;
 margin: 0;
+}
 }
